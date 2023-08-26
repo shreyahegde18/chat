@@ -1,0 +1,72 @@
+{
+    "intents": [
+      {
+        "tag": "Greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "Hey",
+          "Greetings"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! How can I help you with your mental health?",
+          "Hey, nice to see you! How can I support your well-being?"
+        ]
+      },
+      {
+        "tag": "StrugglingEmotion",
+        "patterns": [
+          "I'm feeling really sad",
+          "I'm struggling with anxiety",
+          "I feel so lonely",
+          "I'm overwhelmed by stress"
+        ],
+        "responses": [
+          "I'm sorry to hear that you're feeling this way. Remember, you're not alone. Reach out to friends, family, or a professional for support.",
+          "I'm here to listen. It's okay to feel these emotions. Consider talking to a mental health professional to help you navigate through this.",
+          "I understand. It's important to address these feelings. Connecting with others and practicing self-care can make a difference."
+        ]
+      },
+      {
+        "tag": "CopingStrategies",
+        "patterns": [
+          "What are some coping strategies for stress?",
+          "How can I manage my anxiety?",
+          "Do you have tips for dealing with sadness?"
+        ],
+        "responses": [
+          "Certainly! Deep breathing exercises, mindfulness, and engaging in hobbies you enjoy can help with stress.",
+          "Managing anxiety can involve grounding techniques, meditation, and gradual exposure to triggers.",
+          "When dealing with sadness, staying connected, journaling, and seeking professional support are effective strategies."
+        ]
+      },
+      {
+        "tag": "EmergencyAssistance",
+        "patterns": [
+          "I'm thinking about self-harm",
+          "I want to end my life",
+          "I need help immediately"
+        ],
+        "responses": [
+          "I'm really sorry to hear that you're feeling this way, but I can't provide the help that you need. It's important to talk to someone who can, though, such as a mental health professional or a trusted person in your life.",
+          "I'm here to support you, but I can't provide the urgent help you require. Please reach out to a crisis hotline or a mental health professional immediately.",
+          "I'm really concerned about your safety, but I can't provide the assistance you need. It's crucial to talk to someone who can, though, like a mental health professional or a trusted person in your life."
+        ]
+      },
+      {
+        "tag": "Gratitude",
+        "patterns": [
+          "What are some ways to practice gratitude?",
+          "How can I be more thankful?",
+          "Tell me about the benefits of gratitude"
+        ],
+        "responses": [
+          "Practicing gratitude can involve keeping a gratitude journal, expressing appreciation to others, and focusing on positive aspects of your life.",
+          "Being thankful has been shown to improve overall well-being. You can start by acknowledging the small things you're grateful for each day.",
+          "Gratitude can lead to a more positive outlook on life. You can incorporate gratitude exercises into your daily routine to experience its benefits."
+        ]
+      }
+    ]
+  }
+  
